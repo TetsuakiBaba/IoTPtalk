@@ -21,11 +21,6 @@
 #include <WiFiUdp.h>
 #include <EEPROM.h>
 
-#ifndef STASSID
-#define STASSID "shishimobile"
-#define STAPSK  "laaemnkb"
-#endif
-
 int length_of_ssid;
 int length_of_pass;
 
